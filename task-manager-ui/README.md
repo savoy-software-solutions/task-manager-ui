@@ -1,16 +1,46 @@
-# React + Vite
+# Task Manager UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React frontend for the Task Manager REST API. Built with React, 
+Vite, Tailwind CSS, and Axios.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- View all tasks in a clean card layout
+- Add new tasks with title, description, status, and due date
+- Update task status inline
+- Filter tasks by status (TODO / IN PROGRESS / DONE)
+- Delete tasks
+- Connects to the Task Manager REST API backend
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- Axios
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js
+- [Task Manager API](https://github.com/savoy-software-solutions/task-manager-api) running on port 8080
+
+### Installation
+```bash
+npm install
+npm run dev
+```
+
+The app will start at `http://localhost:5173`
+
+## Screenshots
+
+*Coming soon*
+
+## Related
+
+- [Task Manager REST API](https://github.com/savoy-software-solutions/task-manager-api)
+
+## Author
+Johnathan Savoy  
+[linkedin.com/in/john-savoy](https://linkedin.com/in/john-savoy)
